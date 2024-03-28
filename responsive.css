@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px){
+    .hamburger{
+        display: block;
+        font-size: 1.5rem;
+    }
+    nav ul{
+        display: none;
+    }
+ .hero-section{
+    flex-direction: column;
+    padding: 0 30px;
+ }
+ .heading h1{
+    font-size: 2.5rem;
+ }
+ .right-section{
+    display: none;
+ }
+ .middle-section{
+    flex-direction: column;
+ }
+ .steps{
+    padding: 40px 20px;
+ }
+}
+@media screen and (max-width: 774px){
+    .box{
+        width: 250px;
+        height: 250px;
+    }
+    .right-section1 {
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+       .left-section2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       }
+       .inner-introduction{
+        flex-direction: column;
+       }
+       .frequestly-outer{
+        padding: 0 20px;
+       }
+       .top-header{
+        padding: 20px;
+       }
+       
+}
